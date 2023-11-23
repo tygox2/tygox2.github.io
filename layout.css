@@ -1,24 +1,63 @@
-ul{
-  list-style-type: none;
+/* Algemene opmaak voor de hele pagina /
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+}
+
+/ Opmaak voor de headersectie /
+#header {
   background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+/ Opmaak voor de bovenste navigatiebalk /
+#top-nav ul {
+  list-style: none;
+  padding: 0;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color:#111;
+#top-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+/ Stijl voor de inhoudssecties /
+#content > div {
+  display: none;
+}
+
+/ Stijl voor de standaardsectie die als eerste wordt weergegeven (Home) /
+#home {
+  display: block;
+}
+
+/ Stijl voor de zichtbare inhoud /
+#content > div:target {
+  display: block;
+}
+
+/ Opmaak voor de inhoudselementen */
+#content h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+#content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
