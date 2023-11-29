@@ -22,30 +22,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.blok {
-    width: 200px;
-    height: 100px;
-    background-color: #3498db; /* Pas de achtergrondkleur aan zoals gewenst */
-    margin: 10px;
-    text-align: center;
-    line-height: 100px;
-    color: #fff; /* Tekstkleur */
-    text-decoration: none; /* Verwijder standaard onderstreping van links */
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px; /* Optioneel: voeg afgeronde hoeken toe */
-}
-
-.blok a {
-    color: #fff; /* Tekstkleur voor de link */
-    text-decoration: none; /* Verwijder onderstreping van de link */
-}
